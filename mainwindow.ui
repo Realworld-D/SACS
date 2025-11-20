@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="WidgetPainter">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="page_2">
+       <widget class="QLabel" name="label_show_2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>640</width>
+          <height>480</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_photo_2">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>选择图片</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_camera_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>开启摄像头</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_getphoto">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>拍照</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_camera_status_2">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>20</y>
+          <width>61</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>155</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>摄像头状态：</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_register">
+        <property name="geometry">
+         <rect>
+          <x>960</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>录入</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>870</x>
+          <y>60</y>
+          <width>131</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>输入id：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_name">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>170</y>
+          <width>200</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_id_3">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>50</y>
+          <width>200</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>870</x>
+          <y>180</y>
+          <width>131</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>输入姓名：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_show_4">
+        <property name="geometry">
+         <rect>
+          <x>930</x>
+          <y>310</y>
+          <width>240</width>
+          <height>180</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QTableView" name="tableView_2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>59</y>
+          <width>640</width>
+          <height>551</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_alter_name">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>330</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>输入新的姓名：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_check_name">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>90</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>输入姓名：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_check_id">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>220</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>输入人脸id：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_newname">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>330</y>
+          <width>200</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_show_3">
+        <property name="geometry">
+         <rect>
+          <x>700</x>
+          <y>430</y>
+          <width>240</width>
+          <height>180</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_query">
+        <property name="geometry">
+         <rect>
+          <x>1150</x>
+          <y>70</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>查询人脸</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_delete">
+        <property name="geometry">
+         <rect>
+          <x>1150</x>
+          <y>200</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>删除人脸</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_update">
+        <property name="geometry">
+         <rect>
+          <x>1150</x>
+          <y>330</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>修改姓名</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_queryall">
+        <property name="geometry">
+         <rect>
+          <x>1150</x>
+          <y>460</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>查询所有数据</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_name_2">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>80</y>
+          <width>200</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_id">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>210</y>
+          <width>200</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>20</y>
+          <width>171</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>人脸数据表</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>20</y>
+          <width>111</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>信息表</string>
+        </property>
+       </widget>
+       <widget class="QTableView" name="tableView_3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>59</y>
+          <width>640</width>
+          <height>551</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_today">
+        <property name="geometry">
+         <rect>
+          <x>1130</x>
+          <y>100</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>查询当天记录</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_people">
+        <property name="geometry">
+         <rect>
+          <x>1130</x>
+          <y>230</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>查询个人记录</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_green">
+        <property name="geometry">
+         <rect>
+          <x>1130</x>
+          <y>360</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>绿码记录查询</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_red">
+        <property name="geometry">
+         <rect>
+          <x>1130</x>
+          <y>490</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>红码记录查询</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_id_2">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>370</y>
+          <width>200</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_alter_name_3">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>370</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>输入人脸id：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_check_id_3">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>250</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>输入姓名：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_check_name_3">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>110</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>当前日期：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_name_3">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>240</y>
+          <width>200</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_date">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>100</y>
+          <width>200</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page">
+       <widget class="QLabel" name="label_show">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>640</width>
+          <height>480</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_camera">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>开启摄像头</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_photo">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>选择图片</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>20</y>
+          <width>71</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>时间：</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_confidence">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>730</x>
+          <y>460</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>余弦相似度(%)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>欧氏距离(%)</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_threshold">
+        <property name="geometry">
+         <rect>
+          <x>800</x>
+          <y>570</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>50</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_setconfidence">
+        <property name="geometry">
+         <rect>
+          <x>1030</x>
+          <y>570</y>
+          <width>251</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>设置置信度(%)</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>20</y>
+          <width>151</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>检测人脸数：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>920</x>
+          <y>20</y>
+          <width>151</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>识别人脸数：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>1140</x>
+          <y>20</y>
+          <width>151</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>识别时间ms：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>155</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>摄像头状态：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_camera_status">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>20</y>
+          <width>61</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_datetime">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>20</y>
+          <width>231</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>2022.06.22 17:30</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_detectnum">
+        <property name="geometry">
+         <rect>
+          <x>860</x>
+          <y>20</y>
+          <width>31</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_recognizenum">
+        <property name="geometry">
+         <rect>
+          <x>1070</x>
+          <y>20</y>
+          <width>31</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_recognizetime">
+        <property name="geometry">
+         <rect>
+          <x>1290</x>
+          <y>20</y>
+          <width>61</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QTableView" name="tableView">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>60</y>
+          <width>640</width>
+          <height>480</height>
+         </rect>
+        </property>
+       </widget>
+       <zorder>comboBox_confidence</zorder>
+       <zorder>label_show</zorder>
+       <zorder>pushButton_camera</zorder>
+       <zorder>pushButton_photo</zorder>
+       <zorder>label_4</zorder>
+       <zorder>lineEdit_threshold</zorder>
+       <zorder>pushButton_setconfidence</zorder>
+       <zorder>label_5</zorder>
+       <zorder>label_6</zorder>
+       <zorder>label_7</zorder>
+       <zorder>label_8</zorder>
+       <zorder>label_camera_status</zorder>
+       <zorder>label_datetime</zorder>
+       <zorder>label_detectnum</zorder>
+       <zorder>label_recognizenum</zorder>
+       <zorder>label_recognizetime</zorder>
+       <zorder>tableView</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1400</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>  人脸操作   </string>
+    </property>
+    <addaction name="action1"/>
+    <addaction name="separator"/>
+    <addaction name="action2"/>
+    <addaction name="separator"/>
+    <addaction name="action3"/>
+    <addaction name="separator"/>
+    <addaction name="action4"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>  主题设置   </string>
+    </property>
+    <addaction name="action5"/>
+    <addaction name="separator"/>
+    <addaction name="action6"/>
+    <addaction name="separator"/>
+    <addaction name="action7"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <action name="action1">
+   <property name="text">
+    <string>人脸识别</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="text">
+    <string>人脸录入</string>
+   </property>
+  </action>
+  <action name="action3">
+   <property name="text">
+    <string>人脸管理</string>
+   </property>
+  </action>
+  <action name="action4">
+   <property name="text">
+    <string>信息统计</string>
+   </property>
+  </action>
+  <action name="action5">
+   <property name="text">
+    <string>蓝色主题</string>
+   </property>
+  </action>
+  <action name="action6">
+   <property name="text">
+    <string>黑色主题</string>
+   </property>
+  </action>
+  <action name="action7">
+   <property name="text">
+    <string>灰色主题</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
