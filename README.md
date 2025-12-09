@@ -9,8 +9,6 @@
 ## 作品信息
 - 作品名称：SACS学校门禁系统软件
 - 团队名称：你开心就好
-- 团队成员：杜增杰、黄晨瑜
-- 指导老师：黄萍
 
 ## 演示视频
 https://www.bilibili.com/video/BV1NuyFBpEmJ/
